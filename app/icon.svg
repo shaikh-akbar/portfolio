@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Akbar">
+  <defs>
+    <linearGradient id="akbar-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="55%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="akbar-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#081121" />
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#akbar-bg)" opacity="0.18" />
+  <path
+    d="M18 48 30.5 16h3L46 48h-6.2l-2.4-6.8H26.3L23.9 48Zm10.3-12h7L31.9 25.8Z"
+    fill="url(#akbar-stroke)"
+  />
+</svg>
