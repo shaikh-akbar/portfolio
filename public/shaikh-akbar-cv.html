@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shaikh Akbar CV</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f8fafc;
+        --panel: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --line: #dbeafe;
+        --accent: #0f766e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, #eff6ff 0%, #f8fafc 100%);
+        color: var(--text);
+        font-family: "Segoe UI", Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      .page {
+        width: min(920px, calc(100% - 32px));
+        margin: 32px auto;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      .hero {
+        display: grid;
+        gap: 8px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .role {
+        color: var(--accent);
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+
+      .summary {
+        margin-top: 12px;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 28px;
+      }
+
+      .section {
+        padding: 20px;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        background: #fcfdff;
+      }
+
+      .section h2 {
+        font-size: 18px;
+        margin-bottom: 12px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .meta {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 720px) {
+        .page {
+          padding: 20px;
+          width: min(920px, calc(100% - 20px));
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="role">Software Developer</p>
+        <h1>Shaikh Akbar</h1>
+        <p class="meta">India | akbar000785@gmail.com | +91 90000 00000</p>
+        <p class="summary">
+          Software developer with 2+ years of experience building frontend interfaces,
+          backend APIs, ONDC commerce flows, dashboards, and scalable business platforms.
+        </p>
+      </section>
+
+      <section class="grid">
+        <article class="section">
+          <h2>Core Skills</h2>
+          <ul>
+            <li>React.js, Next.js, JavaScript, Tailwind CSS</li>
+            <li>Node.js, Express.js, REST APIs, authentication</li>
+            <li>MySQL, MongoDB, Supabase</li>
+            <li>Postman, Git, GitHub, deployment workflows</li>
+            <li>Core PHP, SEO knowledge, Google Search Console</li>
+          </ul>
+        </article>
+
+        <article class="section">
+          <h2>Highlights</h2>
+          <ul>
+            <li>Built ONDC buyer-side journeys and BAP-side commerce flows</li>
+            <li>Worked across frontend and backend on ecommerce platforms</li>
+            <li>Delivered 15+ projects across company and freelance work</li>
+            <li>Available for freelance, remote roles, and collaborations</li>
+          </ul>
+        </article>
+
+        <article class="section">
+          <h2>Experience</h2>
+          <ul>
+            <li>
+              <strong>Mobilogi Technology Pvt. Ltd.</strong><br />
+              Full Stack Developer | October 2025 - Present
+            </li>
+            <li>
+              <strong>Centeos Technology Pvt. Ltd.</strong><br />
+              Web Developer | 2024
+            </li>
+            <li>
+              <strong>Independent Client Projects</strong><br />
+              Freelance Developer | 7-9 months
+            </li>
+          </ul>
+        </article>
+
+        <article class="section">
+          <h2>Selected Work</h2>
+          <ul>
+            <li>Zillybuy - ONDC ecommerce platform with frontend, backend, and BAP work</li>
+            <li>Gomodexa - dropshipping platform and ecommerce operations work</li>
+            <li>Employee Management System - admin workflows and business operations</li>
+            <li>HQCoupons and real estate frontend projects</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+  </html>
